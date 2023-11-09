@@ -77,7 +77,12 @@ public class Bebida {
 		this.precio_venta = precio_venta;
 		this.tamaño = tamaño;
 	}
+	@Override
+	public String toString() {
+		return "\n[nombre=" + nombre + ", tipo=" + tipo + ", descripcion=" + descripcion + ", tamaño=" + tamaño + "]";
+	}
 	
 	
 
+	
 }

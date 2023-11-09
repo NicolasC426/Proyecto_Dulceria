@@ -64,4 +64,11 @@ public class Dulce_Unidad {
 		this.precio_compra = precio_compra;
 		this.precio_venta = precio_venta;
 	}
+	
+	@Override
+	public String toString() {
+		return "\n[nombre=" + nombre + ", tipo=" + tipo + ", descripcion=" + descripcion + "]";
+	}
+	
+	
 }
