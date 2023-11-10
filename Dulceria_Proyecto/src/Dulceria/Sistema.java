@@ -99,7 +99,7 @@ public class Sistema {
 	
 	public void crear_usuario(Tienda tienda) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Bienvenido a la dulceria " + tienda.getNombre() + "estamos ubicados en " + tienda.getDirreccion()
+		System.out.println("Bienvenido a la dulceria " + tienda.getNombre() + " estamos ubicados en " + tienda.getDirreccion()
 		+ "\nGracias por preferirnos, por favor para iniciar su proceso de compra digite los siguiente datos");
 		System.out.println("Escriba su nombre");
 		String nombre = sc.next();
